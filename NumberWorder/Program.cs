@@ -10,7 +10,7 @@ namespace NumberWorder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number");
+            Console.WriteLine("Enter Number.1");
         }
     }
 }
