@@ -1,4 +1,6 @@
-﻿using System;
+﻿using NumberWorder.Helper;
+using NumberWorder.Operation;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,7 +12,7 @@ namespace NumberWorder
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter Number.1");
+            helper.start();
         }
     }
 }
