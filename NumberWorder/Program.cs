@@ -12,7 +12,17 @@ namespace NumberWorder
     {
         static void Main(string[] args)
         {
-            helper.start();
+            try
+            {
+                helper.start();
+            }
+            catch(Exception ex)
+            {
+                Console.WriteLine("Error in processing your request.Please contact your administrator.");
+                //Log Exception
+                Console.WriteLine("Enter any key to exit");
+                Console.ReadLine();
+            }
         }
     }
 }
